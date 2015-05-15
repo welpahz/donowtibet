@@ -1,0 +1,876 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+
+
+<!-- Mirrored from blogs.kqed.org/education/2015/05/08/should-teachers-get-paid-more-money/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 May 2015 19:59:42 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head profile="http://gmpg.org/xfn/11">
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQIPWVRSGwIIUFFVAAk="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:23,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(4),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:10,2:9,3:7,4:11,5:3,6:24,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],6:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3),n.on("fn-start",function(t){var e=t[0];e instanceof Event&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof Event&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:10,2:9,3:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],7:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(1),t("ee").create()),i=t(2)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=t[1]=a(e,"nr@wrapped",function(){return i(e,"fn-",null,e.name||"anonymous")}):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:24,2:25,ee:"QJf3ax",gos:"7eSDFh"}],8:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState"],"-")},{1:25,2:24,ee:"QJf3ax"}],9:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:25,2:24,ee:"QJf3ax"}],10:[function(t,e){function n(t,e,n){t[0]=o(t[0],"fn-",null,n)}var r=(t(2),t("ee").create()),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:25,2:24,ee:"QJf3ax"}],11:[function(t,e){function n(){f.inPlace(this,p,"fn-")}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:7,2:25,ee:"QJf3ax"}],12:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:13,3:11,4:7,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],13:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("http://blogs.kqed.org/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],14:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:23,2:24,handle:"D5DuLP"}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=(t(2),window),f=c.document,u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-632.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:23,2:14,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],23:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],24:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],25:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:24,ee:"QJf3ax"}]},{},["G9z0Bl",4,12,6,5]);</script>
+
+<title>#DoNowTibet</title>
+
+<link rel="stylesheet" href="http://blogs.kqed.org/education/wp-content/themes/ED-clear/style.css" type="text/css" media="screen" />
+
+<link rel="stylesheet" href="http://blogs.kqed.org/education/wp-content/themes/clear-theme/style-font.css" type="text/css" media="screen" />
+
+	<!-- Responsive Design Resources -->
+	<link rel="stylesheet" href="http://blogs.kqed.org/education/wp-content/themes/clear-theme/style-responsive.css" type="text/css" media="screen" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+
+<link rel="pingback" href="http://blogs.kqed.org/education/xmlrpc.php" />
+<link rel="shortcut icon" href="http://www.kqed.org/favicon.ico">
+<!-- Jetpack Site Verification Tags -->
+<meta name="google-site-verification" content="g7uvBh7T2iaIl8AlYg92R7-reSLPAb2m5A8C48HNo8M" />
+<link rel="alternate" type="application/rss+xml" title="KQED Education | KQED Public Media for Northern CA &raquo; Feed" href="http://blogs.kqed.org/education/feed/" />
+<link rel="alternate" type="application/rss+xml" title="KQED Education | KQED Public Media for Northern CA &raquo; Comments Feed" href="http://blogs.kqed.org/education/comments/feed/" />
+
+            <script type="text/javascript">//<![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-1538528-1']);
+				            _gaq.push(['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]></script>
+			<link rel="alternate" type="application/rss+xml" title="KQED Education | KQED Public Media for Northern CA &raquo; Should Teachers Get Paid More Money? Comments Feed" href="feed/index.html" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/blogs.kqed.org\/education\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.2"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='usp_style-css'  href='http://blogs.kqed.org/education/wp-content/plugins/q-user-submitted-posts/resources/user-submitted-posts.css?ver=1.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='wprssmi_template_styles-css'  href='http://blogs.kqed.org/education/wp-content/plugins/wp-rss-multi-importer/templates/templates.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='shadowbox-css'  href='http://blogs.kqed.org/education/wp-content/plugins/rss-image-widget/shadowbox-3.0.3/shadowbox.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='http://blogs.kqed.org/education/wp-content/plugins/jetpack/css/jetpack.css?ver=3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='navis-jiffy-post-styles-css'  href='http://blogs.kqed.org/education/wp-content/plugins/argoproject-navis-jiffy-posts-dfce975/css/style.css?ver=1.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://blogs.kqed.org/education/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>
+<script type='text/javascript' src='http://blogs.kqed.org/education/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://blogs.kqed.org/education/wp-content/plugins/q-user-submitted-posts/resources/user-submitted-posts.js?ver=1.0'></script>
+<script type='text/javascript' src='http://cdn.embedly.com/widgets/platform.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://blogs.kqed.org/education/wp-content/plugins/rss-image-widget/shadowbox-3.0.3/shadowbox.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://blogs.kqed.org/education/wp-content/plugins/rss-image-widget/js/shadowbox-init.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://blogs.kqed.org/education/wp-content/themes/clear-theme/js/external.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://blogs.kqed.org/education/wp-content/themes/clear-theme/js/suckerfish.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://blogs.kqed.org/education/wp-content/themes/clear-theme/js/jquery.mobilemenu.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://blogs.kqed.org/education/wp-content/themes/clear-theme/js/flexslider.js?ver=4.2.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blogs.kqed.org/education/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blogs.kqed.org/education/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Students Weigh in on School Safety and Disaster Preparation' href='http://blogs.kqed.org/education/2015/05/08/students-weigh-in-on-school-safety-and-disaster-preparation/' />
+<link rel='next' title='What Mandatory Water Cuts in Cities throughout California Look Like, in Three Interactive Maps' href='http://blogs.kqed.org/education/2015/05/11/what-mandatory-water-cuts-in-cities-throughout-california-look-like-in-three-interactive-maps/' />
+
+<link rel='canonical' href='index.html' />
+<link rel='shortlink' href='http://wp.me/p5W9WB-4tu' />
+<script type="text/javascript" src="http://blogs.kqed.org/education/wp-content/plugins/audio-player/assets/audio-player.js?ver=2.0.4.6"></script>
+<script type="text/javascript">AudioPlayer.setup("http://blogs.kqed.org/education/wp-content/plugins/audio-player/assets/player.swf?ver=2.0.4.6", {width:"290",animation:"yes",encode:"yes",initialvolume:"60",remaining:"no",noinfo:"no",buffer:"5",checkpolicy:"no",rtl:"no",bg:"E5E5E5",text:"333333",leftbg:"CCCCCC",lefticon:"333333",volslider:"666666",voltrack:"FFFFFF",rightbg:"B4B4B4",rightbghover:"999999",righticon:"333333",righticonhover:"FFFFFF",track:"FFFFFF",loader:"009900",border:"CCCCCC",tracker:"DDDDDD",skip:"666666",pagebg:"FFFFFF",transparentpagebg:"yes"});</script>
+
+
+        <style type="text/css" media="screen">
+          div.printfriendly {
+            margin: 0px 0px 0px 0px;;
+          }
+          div.printfriendly a, div.printfriendly a:link, div.printfriendly a:visited {
+            text-decoration: none;
+            font-size: 14px;
+            color: #55750C;
+            vertical-align: bottom;
+            border: none;
+          }
+
+          .printfriendly a:hover {
+            cursor: pointer;
+          }
+
+          .printfriendly a img  {
+            border: none;
+            padding:0;
+            margin-right: 6px;
+            display:inline-block;
+            box-shadow: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+          }
+          .printfriendly a span{
+            vertical-align: bottom;
+          }
+          .pf-alignleft {
+            float: left;
+          }
+          .pf-alignright {
+            float: right;
+          }
+          div.pf-aligncenter {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+          }
+        </style>
+        <style type="text/css" media="print">
+          .printfriendly {
+            display: none;
+          }
+        </style>
+<link type="text/css" rel="stylesheet" href="http://blogs.kqed.org/education/wp-content/plugins/simple-pull-quote/css/simple-pull-quote.css" />
+
+<!-- Alternate Stylesheet -->
+<link href="http://blogs.kqed.org/education/wp-content/themes/clear-theme/styles/default.css" rel="stylesheet" type="text/css" />
+
+<!-- Styles from custom.css -->
+<link href="http://blogs.kqed.org/education/wp-content/themes/clear-theme/custom.css" rel="stylesheet" type="text/css" />
+
+	<!-- MobileMenu JS -->
+	<script type="text/javascript">
+		jQuery(function () {
+			jQuery('.nav').mobileMenu({ defaultText: 'Navigate to ...' });
+			jQuery('.catnav').mobileMenu({ defaultText: 'Navigate to ... ', className: 'select-menu-catnav' });
+		});
+	</script>
+	
+<!-- Dynamic Widgets by QURL - http://www.qurl.nl //-->
+
+<!-- WordPress Facebook Open Graph protocol plugin (WPFBOGP v2.0.10) http://rynoweb.com/wordpress-plugins/ -->
+<meta property="fb:app_id" content="160023622793"/>
+<meta property="og:url" content="http://blogs.kqed.org/education/2015/05/08/should-teachers-get-paid-more-money/"/>
+<meta property="og:title" content="Should Teachers Get Paid More Money?"/>
+<meta property="og:site_name" content="KQED Education | KQED Public Media for Northern CA"/>
+<meta property="og:description" content="Teaching is by no measure an easy job. The hours are long, the demands are high, the working conditions are often challenging  … and the pay?  Let’s just say, you don’t go into teaching for the money. Should teachers earn more money?"/>
+<meta property="og:type" content="article"/>
+<meta property="og:image" content="http://blogs.kqed.org/education/files/2015/05/teacher.jpg"/>
+<meta property="og:image" content="http://blogs.kqed.org/education/files/2015/05/teacher-640x360.jpg"/>
+<meta property="og:locale" content="en_us"/>
+<!-- // end wpfbogp -->
+
+
+
+<script type='text/javascript'>
+(function() {
+	var useSSL = 'https:' == document.location.protocol;
+	var src = (useSSL ? 'https:' : 'http:') +
+	'//www.googletagservices.com/tag/js/gpt.js';
+	document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+})();
+</script>
+
+<script type='text/javascript'>
+	googletag.defineSlot('/1001705/300x100_edu', [300, 100], 'div-gpt-ad-1378345893481-3').addService(googletag.pubads());
+	googletag.defineSlot('/1001705/300x250_edu', [300, 250], 'div-gpt-ad-1378345893481-15').addService(googletag.pubads());
+	googletag.pubads().enableSyncRendering();
+	googletag.pubads().enableSingleRequest();
+	googletag.enableServices();
+</script>
+
+
+
+
+<link rel="stylesheet" href="http://www.kqed.org/lib/css/header-footer.css" type="text/css" media="screen" />
+
+<!--[if (IE 8)|(IE 9)]>
+    <link rel="stylesheet" href="http://www.kqed.org/lib/css/ie9.css" />
+<![endif]-->
+
+<link rel="stylesheet" href="http://blogs.kqed.org/education/wp-content/themes/ED-clear/custom.css" type="text/css" media="screen" />
+
+</head>
+
+<body class="single single-post postid-17204 single-format-standard c-sw">
+
+<div class="outer-wrap">
+
+	
+
+		 <div id="kqed-header">
+			<div id="kqed-masthead" class="section cfix">
+		<h1><a href="http://www.kqed.org/"><svg role="img" aria-label="KQED" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="163.999px" height="50px" viewBox="0 -0.532 163.999 50" enable-background="new 0 -0.532 163.999 50" xml:space="preserve">
+	<title>KQED</title>
+	<path class="logo-kqed-k" d="M11.611 21.634l-5.986 6.043v14.72H0V0.151h5.625v20.646L25.673 0.151h6.944L15.5 17.622l17.837 24.776H26.51L11.611 21.6 z"/>
+	<path class="logo-kqed-e" d="M91.906 23.204v14.104h24.405v5.123H86.246V0.016h29.339V5.2H91.906L91.9 18.004h20.543v5.2H91.906z"/>
+	<path class="logo-kqed-q" d="M76.839 21.117c0-11.908-9.752-21.649-21.611-21.649c-11.858 0-21.685 9.741-21.684 21.6 c0 11.9 9.7 21.7 21.7 21.685c3.77 0 7.316-0.965 10.4-2.67l6.682 8.273l4.182-3.369l-6.506-8.057 c4.198-3.967 6.842-9.644 6.842-15.862H76.839z M38.956 21.153c0-8.946 7.282-16.224 16.232-16.224s16.226 7.3 16.3 16.2 c0 8.946-7.276 16.229-16.226 16.229s-16.27-7.334-16.262-16.265L38.956 21.153z"/>
+	<path class="logo-kqed-d" d="M163.999 21.328c0-9.957-6.854-21.078-22.433-21.078h-16.375v42.147h16.438c13.906 0 22.36-10.232 22.36-21.069H163.999 z M131.045 5.454h9.478c11.981 0 17.4 7.3 17.4 15.875c0 5.263-3.197 15.862-17.121 15.862h-9.79V5.454H131.045z"/>
+</svg></a></h1>
+		<span class="visuallyhidden"><a href="#content" title="Skip to main content">Skip to main content</a></span>
+		<h2 class="education"><a class="ir" href="http://blogs.kqed.org/education">Education</a></h2>
+		<ul class="partners cfix">
+			<li class="logo-npr"><a class="ir" href="http://www.npr.org/" target="_blank">NPR</a></li>
+			<li class="logo-pbs"><a class="ir" href="http://www.pbs.org/" target="_blank">PBS</a></li>
+		</ul>
+	</div> 
+	<div id="header-for-print" class="for-print-only"><h1><img src="http://a.s.kqed.net/img/nav/logo-kqed-printable.png" /></h1></div>			<div id="kqed-hd-tools" class="section">
+		<div class="social">
+			<h1>Follow us:</h1>
+			<ul>
+				<li>
+					<a href="http://www.facebook.com/KQED" target="_blank"><img src="http://a.s.kqed.net/img/nav/icon-facebook.png" alt="Facebook" title="Visit the KQED fan page on Facebook" width="18" height="18"></a>
+				</li>
+				<li>
+					<a href="http://twitter.com/KQED" target="_blank"><img src="http://a.s.kqed.net/img/nav/icon-twitter.png" alt="Twitter" title="Follow KQED on Twitter" width="18" height="18"></a>
+				</li>
+				<li>
+					<a href="https://plus.google.com/111575003270625099687?prsrc=3" rel="publisher" target="_blank"><img src="http://a.s.kqed.net/img/nav/icon-googleplus.png" alt="Follow KQED on Google+" width="18" height="18" /></a>
+				</li>
+			</ul>
+		</div>
+		<form id="search-box" action="http://www.kqed.org/search/index.jsp" name="search-box">
+			<input type="hidden" name="cx" value="016903106374557566950:07-zut18mt4" />
+			<input type="hidden" name="cof" value="FORID:11" />
+			<input type="text" placeholder="Search KQED.org" value title="Search KQED.org" name="q" />
+			<button type="submit" name="sa">Search</button>			
+		</form>
+		<a class="bu-donate button ir" href="https://www.kqed.org/donate/">Donate</a>
+	</div>  
+		<!--top-->
+
+
+
+       <div class="kqed-navbar">
+
+               <ul class="kqed-navbar-primary cfix">
+
+
+
+                       <li class="nav-home">
+                         <div class="kqed-navbar-secondary">
+
+                                 <a class="bu-close" href="#">Close</a>
+
+
+
+                                                 <!-- NAV PANEL: /home -->
+<div class="sectionWrap">
+       <div class="section tools cfix">
+               <ul class="cfix">
+                       <li class="link-listen"><a href="http://www.kqed.org/radio/listen/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Home', '/radio/listen/']);">Listen Live</a></li>
+                       <li class="link-events"><a href="http://www.kqed.org/events/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Home', '/events/']);">Events</a></li>
+                       <li class="link-podcasts"><a href="http://www.kqed.org/video-audio/podcasts/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Home', '/video-audio/podcasts/']);">Podcasts</a></li>
+                       <li class="link-rss"><a href="http://www.kqed.org/community/rss/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Home', '/community/rss/']);">RSS</a></li>
+                       <li class="link-blogs"><a href="http://www.kqed.org/community/blogs/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Home', '/community/blogs/']);">Blogs</a></li>
+                       <li class="link-mobile"><a href="http://www.kqed.org/community/mobile/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Home', '/community/mobile/']);">Mobile</a></li>
+                       <li class="link-video"><a href="http://www.kqed.org/video-audio/video/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Home', '/video-audio/video/']);">Video</a></li>
+                       <li class="link-newsletters"><a href="http://www.kqed.org/community/newsletters/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Home', '/community/newsletters/']);">Newsletters</a></li>
+                       <li class="link-social"><a href="http://www.kqed.org/community/socialmedia.jsp" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Home', '/community/socialmedia.jsp']);">Social Media</a></li>
+               </ul>
+       </div>
+</div>
+
+
+<div class="sectionWrap">
+       <div class="section dontMiss cfix">
+           <h4>Don't Miss:</h4>
+           <ul class="cfix">
+           </ul>
+       </div>
+
+       <script type="text/javascript">
+               jQuery(document).ready(function($){
+                       if ( window.XDomainRequest ) {
+                           jQuery.ajaxTransport(function( s ) {
+                               if ( s.crossDomain && s.async ) {
+                                   if ( s.timeout ) {
+                                       s.xdrTimeout = s.timeout;
+                                       delete s.timeout;
+                                   }
+                                   var xdr;
+                                   return {
+                                       send: function( _, complete ) {
+                                           function callback( status, statusText, responses, responseHeaders ) {
+                                               xdr.onload = xdr.onerror = xdr.ontimeout = jQuery.noop;
+                                               xdr = undefined;
+                                               complete( status, statusText, responses, responseHeaders );
+                                           }
+                                           xdr = new XDomainRequest();
+                                           xdr.onload = function() {
+                                               callback( 200, "OK", { text: xdr.responseText }, "Content-Type: " + xdr.contentType );
+                                           };
+                                           xdr.onerror = function() {
+                                               callback( 404, "Not Found" );
+                                           };
+                                           xdr.onprogress = jQuery.noop;
+                                           xdr.ontimeout = function() {
+                                               callback( 0, "timeout" );
+                                           };
+                                           xdr.timeout = s.xdrTimeout || Number.MAX_VALUE;
+                                           xdr.open( s.type, s.url );
+                                           xdr.send( ( s.hasContent && s.data ) || null );
+                                       },
+                                       abort: function() {
+                                           if ( xdr ) {
+                                               xdr.onerror = jQuery.noop;
+                                               xdr.abort();
+                                           }
+                                       }
+                                   };
+                               }
+                           });
+                       }
+
+               $.ajax({
+                   url: "//www.kqed.org/webapi/v1/dontmiss.json",
+                   data: {
+                       "display" : 5,
+                       "location" : "HOME"
+                   },
+                   dataType: "json",
+                   crossDomain: true,
+                   success: function(highlights){
+                       // this code runs multiple times for multiple UL's, code below tries to work around that
+
+                       // filter and get only the UL's that don't have items
+                       $("div.dontMiss ul.cfix").each( function( indexa, ul ){
+                               if( $(ul).children("li").length == 0 ){
+                                               // then add each highlight to each list with no items
+                                               $.each( highlights, function( indexb, highlight ){
+                                                       $(ul).append( '<li><a href="' + highlight.url + '">' + highlight.title + '</a></li>' );
+                                       });
+                               }
+                       });
+                   }
+               });
+           });
+       </script>
+</div>
+
+
+
+
+                               </div>
+
+                       </li>
+
+
+
+                       
+
+                               
+
+                               <div class="kqed-navbar-secondary">
+
+                                       <a class="bu-close" href="#">Close</a>
+
+
+
+                                                       <!-- NAV PANEL: /radio -->
+<div class="sectionWrap">
+       <div class="section mainSec cfix">
+               <h1><a href="http://www.kqed.org/radio/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Radio', '/radio/']);">Radio <span>Main Page</span></a></h1>
+               <ul>
+                       <li class="link-listen"><a href="http://www.kqed.org/radio/listen/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Radio', '/radio/listen/']);">Listen Live</a></li>
+                       <li><a href="http://www.kqed.org/radio/programs/audio-archives.jsp" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Radio', '/radio/programs/audio-archives.jsp']);">Audio Archives</a></li>
+                       <li><a href="http://www.kqed.org/radio/about/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Radio', '/radio/about/']);">About KQED Radio</a></li>
+                       <li><a href="http://www.kqed.org/radio/help/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Radio', '/radio/help/']);">Radio Help</a></li>
+               </ul>
+       </div>
+</div>
+<div class="sectionWrap">
+       <div class="section schedules cfix">
+               <h1><a href="http://www.kqed.org/radio/schedules/daily/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Radio', '/radio/schedules/daily/']);">Schedules</a></h1>
+               <ul>
+                       <li><a href="http://www.kqed.org/radio/schedules/daily/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Radio', '/radio/schedules/daily/']);">Daily Schedule</a></li>
+                       <li><a href="http://www.kqed.org/radio/schedules/weekly.jsp" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Radio', '/radio/schedules/weekly.jsp']);">Weekly Schedule</a></li>
+               </ul>
+       </div>
+       <div class="section blogs cfix">
+               <h1><a href="http://www.kqed.org/community/blogs/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Radio', '/community/blogs/']);">Blogs</a></h1>
+               <ul>
+                       <li><a href="http://www.kqed.org/newsfix" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Radio', '/newsfix/']);">News Fix</a></li>
+                       <li><a href="http://www.kqed.org/stateofhealth" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Radio', '/stateofhealth/']);">State of Health</a></li>
+               </ul>
+       </div>
+</div>
+<div class="sectionWrap">
+       <div class="section last programs cfix">
+               <h1><a href="http://www.kqed.org/radio/programs/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Radio', '/radio/programs/']);">Programs</a></h1>
+               <ul class="col1">
+                       <li><a href="http://www.kqed.org/radio/programs/forum/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Radio', '/radio/programs/forum/']);">Forum</a></li>
+                       <li><a href="http://www.californiareport.org/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Radio', 'californiareport.org']);">The California Report</a></li>
+                       <li><a href="http://www.kqed.org/radio/programs/perspectives/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Radio', '/radio/programs/perspectives/']);">Perspectives</a></li>
+               </ul>
+               <ul class="col2">
+                       <li><a href="http://ww2.kqed.org/arts/programs/the-do-list/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Radio', '/arts/programs/the-do-list']);">The Do List</a></li>
+                       <li><a href="http://science.kqed.org/quest/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Radio', '/quest/']);">QUEST</a></li>
+                       <li><a href="http://www.kqed.org/radio/programs/index.jsp?pgmid=RD30" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Radio', '/radio/programs/index.jsp?pgmid=RD30']);">Morning Edition</a></li>
+                       <li class="link-more"><a href="http://www.kqed.org/radio/programs/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Radio', '/radio/programs/']);">All Programs</a></li>
+               </ul>
+       </div>
+</div>
+
+
+
+
+                               </div>
+
+                       </li>
+
+
+
+                       
+
+                               <div class="kqed-navbar-secondary">
+
+                                       <a class="bu-close" href="#">Close</a>
+
+
+
+                                                       <!-- NAV PANEL: /tv -->
+<div class="sectionWrap">
+       <div class="section mainSec cfix">
+               <h1><a href="http://www.kqed.org/tv/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-TV', '/tv/']);">TV <span>Main Page</span></a></h1>
+               <ul>
+                       <li><a href="http://www.kqed.org/tv/help/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-TV', '/tv/help/']);">TV Help</a></li>
+                       <li><a href="http://blogs.kqed.org/transmitterstatus/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-TV', '/transmitterstatus/']);">TV Technical Issues</a></li>
+                       <li><a href="http://www.kqed.org/tv/about/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-TV', '/tv/about/']);">About KQED TV</a></li>
+                       <li><a href="http://www.kqed.org/tv/produce/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-TV', '/tv/produce/']);">Produce with KQED</a></li>
+               </ul>
+       </div>
+</div>
+<div class="sectionWrap">
+       <div class="section schedules cfix">
+               <h1><a href="http://www.kqed.org/tv/schedules/daily/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-TV', '/tv/schedules/daily/']);">Schedules</a></h1>
+               <ul>
+                       <li><a href="http://www.kqed.org/tv/schedules/daily/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-TV', '/tv/schedules/daily/']);">Daily Schedule</a></li>
+                       <li><a href="http://www.kqed.org/tv/schedules/weekly/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-TV', '/tv/schedules/weekly/']);">Weekly Schedule</a></li>
+                       <li><a href="http://www.kqed.org/tv/schedules/monthly/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-TV', '/tv/schedules/monthly/']);">Monthly Schedule</a></li>
+                       <li><a href="http://www.kqed.org/tv/schedules/schedule-changes.jsp" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-TV', '/tv/schedules/schedule-changes.jsp']);">Schedule Changes</a></li>
+               </ul>
+       </div>
+</div>
+<div class="sectionWrap">
+       <div class="section last programs cfix">
+               <h1><a href="http://www.kqed.org/tv/programs/directory.jsp" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-TV', '/tv/programs/directory.jsp']);">Programs</a></h1>
+               <ul class="col1">
+                       <li><a href="http://www.kqed.org/tv/programs/index.jsp?pgmid=14084" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-TV', '/tv/programs/index.jsp?pgmid=14084']);">Check, Please! Bay Area</a></li>
+                       <li><a href="http://www.kqed.org/tv/programs/index.jsp?pgmid=20092" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-TV', '/tv/programs/index.jsp?pgmid=20092']);">Essential P&eacute;pin</a></li>
+                       <li><a href="http://blogs.kqed.org/filmschoolshorts/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-TV', '/filmschoolshorts/']);">Film School Shorts</a></li>
+                       <li><a href="http://www.kqed.org/arts/programs/imagemakers/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-TV', '/arts/programs/imagemakers/']);">ImageMakers</a></li>
+               </ul>
+               <ul class="col2">
+                       <li><a href="http://www.kqed.org/quest" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-TV', '/quest/']);">QUEST</a></li>
+                       <li><a href="http://www.kqed.org/tv/programs/newsroom/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-TV', '/tv/programs/newsroom/']);">KQED NEWSROOM</a></li>
+                       <li><a href="http://www.kqed.org/arts/programs/trulyca/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-TV', '/arts/programs/trulyca/']);">Truly CA</a></li>
+                       <li><a href="http://www.kqed.org/thisisus/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-TV', '/thisisus/']);">This Is Us</a></li>
+               </ul>
+               <ul class="col3">
+                       <li><a href="http://www.kqed.org/tv/programs/index.jsp?pgmid=17336" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-TV', '/tv/programs/index.jsp?pgmid=17336']);">Masterpiece Classic</a></li>
+                       <li><a href="http://www.kqed.org/tv/programs/index.jsp?pgmid=54" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-TV', '/tv/programs/index.jsp?pgmid=54']);">NOVA</a></li>
+                       <li class="link-more"><a href="http://www.kqed.org/tv/programs/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-TV', '/tv/programs/']);">KQED Productions</a></li>
+                       <li class="link-more"><a href="http://www.kqed.org/tv/programs/directory.jsp" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-TV', '/tv/programs/directory.jsp']);">All Programs</a></li>
+               </ul>
+       </div>
+</div>
+
+
+
+
+                               </div>
+
+                       </li>
+
+
+
+                       
+
+                               <div class="kqed-navbar-secondary">
+
+                                       <a class="bu-close" href="#">Close</a>
+
+
+
+<!-- NAV PANEL: /news -->
+<div class="sectionWrap">
+	<div class="section subcats cfix">
+		<h1><a href="http://www.kqed.org/news/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-News', '/news/']);">News <span>Main Page</span></a></h1>
+		<ul class="col1">
+			<li class="link-listen"><a href="http://www.kqed.org/radio/listen/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-News', '/radio/listen/']);">Listen Live</a></li>
+			<li><a href="http://ww2.kqed.org/news/category/arts-and-culture/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-News', '/news/bayarea/']);">Arts &amp; Culture</a></li>
+			<li><a href="http://ww2.kqed.org/news/category/economy/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-News', '/news/category/economy/']);">Economy</a></li>
+			<li><a href="http://ww2.kqed.org/news/category/education/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-News', '/news/category/education/']);">Education</a></li>
+			<li><a href="http://ww2.kqed.org/news/category/health/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-News', '/news/category/health/']);">Health</a></li>			
+		</ul>
+		<ul class="col2">
+			<li><a href="http://ww2.kqed.org/news/category/immigration/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-News', '/news/category/immigration/']);">Immigration</a></li>
+			<li><a href="http://ww2.kqed.org/news/category/environment/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-News', '/news/category/environment/']);">Environment</a></li>
+			<li><a href="http://ww2.kqed.org/news/category/housing/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-News', '/news/category/housing/']);">Housing</a></li>
+			<li><a href="http://ww2.kqed.org/news/category/law-and-justice/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-News', '/news/category/law-and-justice/']);">Law and Justice</a></li>			
+			<li><a href="http://ww2.kqed.org/news/category/politics-and-government/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-News', '/news/category/politics-and-government/']);">Politics and Government</a></li>
+		</ul>
+		<ul class="col3">
+			<li><a href="http://ww2.kqed.org/news/category/science/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-News', '/news/category/science/']);">Science</a></li>
+			<li><a href="http://ww2.kqed.org/news/category/sports/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-News', '/news/category/sports/']);">Sports</a></li>
+			<li><a href="http://www.kqed.org/news/category/technology/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-News', '/news/category/technology/']);">Technology</a></li>
+			<li><a href="http://www.kqed.org/news/category/transportation/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-News', '/news/category/transportation/']);">Transportation</a></li>			
+		</ul>
+	</div>
+</div>
+<div class="sectionWrap">
+	<div class="section last blogs cfix">
+		<h1><a href="http://www.kqed.org/community/blogs/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-News', '/community/blogs/']);">Blogs</a></h1>
+		<ul class="col1">
+			<li><a href="http://blogs.kqed.org/lowdown/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-News', '/lowdown/']);">The Lowdown</a></li>
+			<li><a href="http://blogs.kqed.org/mindshift/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-News', '/mindshift/']);">MindShift</a></li>
+			<li><a href="http://blogs.kqed.org/stateofhealth/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-News', '/stateofhealth/']);">State of Health</a></li>
+		</ul>
+	</div>
+</div>
+<div class="sectionWrap">
+	<div class="section last programs cfix">
+		<h1><a href="http://www.kqed.org/news/programs/directory.jsp" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-News', '/news/programs/directory.jsp']);">Programs</a></h1>
+		<ul class="col1">
+			<li><a href="http://ww2.kqed.org/news/programs/news-fix/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-News', '/news/programs/news-fix/']);">News Fix</a></li>
+			<li><a href="http://ww2.kqed.org/news/programs/the-california-report/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-News', '/news/programs/the-california-report/']);">The California Report</a></li>
+			<li><a href="http://ww2.kqed.org/news/programs/faultlines/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-News', '/news/programs/faultlines/']);">FaultLines</a></li>
+			<li><a href="http://www.kqed.org/radio/programs/forum/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-News', '/radio/programs/forum/']);">Forum</a></li>
+			<li><a href="http://www.kqed.org/tv/programs/newsroom/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-News', '/tv/programs/newsroom/']);">KQED NEWSROOM</a></li>
+		</ul>
+		<ul class="col2">
+			<li><a href="http://www.kqed.org/radio/programs/perspectives/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-News', '/radio/programs/perspectives/']);">Perspectives</a></li>
+			<li><a href="http://www.kqed.org/radio/programs/index.jsp?pgmid=RD30" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-News', '/radio/programs/index.jsp?pgmid=RD30']);">Morning Edition</a></li>
+			<li><a href="http://www.kqed.org/tv/programs/index.jsp?pgmid=18678" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-News', '/tv/programs/index.jsp?pgmid=18678']);">PBS NewsHour</a></li>
+			<li class="link-more"><a href="http://www.kqed.org/news/programs/directory.jsp" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-News', '/news/programs/directory.jsp']);">All Programs</a></li>
+		</ul>
+	</div>
+</div>
+
+
+
+
+
+                               </div>
+
+                       </li>
+
+
+
+                       
+
+                               
+
+
+                               <div class="kqed-navbar-secondary">
+
+                                       <a class="bu-close" href="#">Close</a>
+
+
+
+                                                       <!-- NAV PANEL: /food -->
+<div class="sectionWrap">
+       <div class="section mainSec cfix">
+               <h1><a href="http://www.kqed.org/food/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Food', '/food/']);">Food <span>Main Page</span></a></h1>
+               <ul>
+                       <li><a href="http://www.kqed.org/food/wine/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Food', '/food/wine/']);">Wine</a></li>
+                       <li><a href="http://www.kqed.org/food/jacquespepin/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Food', '/food/jacquespepin/']);">Jacques P&eacute;pin</a></li>
+                       <li><a href="http://www.kqed.org/food/juliachild/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Food', '/food/juliachild/']);">Julia Child</a></li>
+               </ul>
+       </div>
+</div>
+<div class="sectionWrap">
+       <div class="section blogs cfix">
+               <h1><a href="http://www.kqed.org/community/blogs/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Food', '/community/blogs/']);">Blogs</a></h1>
+               <ul>
+                       <li><a href="http://www.kqed.org/bayareabites/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Food', '/bayareabites/']);">Bay Area Bites</a></li>
+                       <li><a href="http://www.kqed.org/checkplease/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Food', '/checkplease/']);">Check, Please! Bay Area</a></li>
+                       <li><a href="http://www.kqed.org/essentialpepin/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Food', '/essentialpepin/']);">Essential P&eacute;pin</a></li>
+               </ul>
+       </div>
+</div>
+<div class="sectionWrap">
+       <div class="section last programs cfix">
+               <h1><a href="http://www.kqed.org/food/programs/directory.jsp" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Food', '/food/programs/directory.jsp']);">Programs</a></h1>
+               <ul class="col1">
+                       <li><a href="http://www.kqed.org/tv/programs/index.jsp?pgmid=20092" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Food', '/tv/programs/index.jsp?pgmid=20092']);">Essential P&eacute;pin</a></li>
+                       <li><a href="http://www.kqed.org/tv/programs/index.jsp?pgmid=17740" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Food', '/tv/programs/index.jsp?pgmid=17740']);">Jacques P&eacute;pin: More Fast Food My Way</a></li>
+                       <li><a href="http://www.kqed.org/tv/programs/index.jsp?pgmid=8623" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Food', '/tv/programs/index.jsp?pgmid=8623']);">Julia and Jacques Cooking at Home</a></li>
+               </ul>
+               <ul class="col2">
+                       <li><a href="http://www.kqed.org/tv/programs/index.jsp?pgmid=14084" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Food', '/tv/programs/index.jsp?pgmid=14084']);">Check, Please! Bay Area</a></li>
+                       <li><a href="http://www.kqed.org/tv/programs/index.jsp?pgmid=9913" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Food', '/tv/programs/index.jsp?pgmid=9913']);">America's Test Kitchen</a></li>
+                       <li><a href="http://www.kqed.org/tv/programs/index.jsp?pgmid=20192" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Food', '/tv/programs/index.jsp?pgmid=20192']);">Lidia's Italy In America</a></li>
+                       <li class="link-more"><a href="http://www.kqed.org/food/programs/directory.jsp" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Food', '/food/programs/directory.jsp']);">All Programs</a></li>
+               </ul>
+       </div>
+</div>
+
+                               </div>
+
+                       </li>
+
+
+
+                       <li class="nav-science">
+
+                               <a href="http://welpahz.github.io/donowtibet/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav1-Science', '/science/']);">#DoNowTibet</a></li>
+
+
+
+                       <li class="nav-education">
+
+                               <a href="http://www.kqed.org/education/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav1-Education', '/education/']);">About Us</a>
+
+                               
+                               
+                       </li>
+
+
+
+                       <li class="nav-support">
+
+                               <a href="http://www.kqed.org/support/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav1-Support KQED', '/support/']);">Contact</a>
+
+                               <div class="kqed-navbar-secondary">
+
+                                       <a class="bu-close" href="#">Close</a>
+
+
+
+                                                       <!-- NAV PANEL: /support -->
+<div class="sectionWrap">
+       <div class="section mainSec cfix">
+               <h1><a href="http://www.kqed.org/support/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Support', '/support/']);">Support <span>Main Page</span></a></h1>
+               <ul>
+                       <li class="bu-donate"><a href="https://www.kqed.org/donate/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Support', '/donate/']);">Donate, Join, Renew</a></li>
+               </ul>
+       </div>
+       <div class="section donate cfix">
+               <h1><a href="https://www.kqed.org/donate/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Support', '/donate/']);">Donate, Join, Renew</a></h1>
+               <ul>
+                       <li><a href="http://www.kqed.org/support/membership/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Support', '/support/membership/']);">Membership Levels</a></li>
+                       <li><a href="http://www.kqed.org/support/membership/member-benefits.jsp" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Support', '/support/membership/member-benefits.jsp']);">Member Benefits: KQED Perks</a></li>
+                       <li><a href="http://www.kqed.org/support/membership/onq/index.jsp" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Support', '/support/membership/onq/index.jsp']);">Member Magazine: On Q</a></li>
+                       <li><a href="http://www.kqed.org/support/membership/help/index.jsp" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Support', '/support/membership/help/index.jsp']);">Membership Help</a></li>
+               </ul>
+       </div>
+</div>
+<div class="sectionWrap">
+       <div class="section other cfix">
+               <h1>Other Ways to Give</h1>
+               <ul class="col1">
+                       <li><a href="http://www.kqed.org/support/giftplanning/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Support', '/support/giftplanning/']);">Gift Planning &amp; Endowment</a></li>
+                       <li><a href="http://www.kqed.org/support/foundation/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Support', '/support/foundation/']);">Foundation &amp; Gov't Support</a></li>
+                       <li><a href="http://kqed-cardonations.org/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Support', 'kqed-cardonations.org']);">Car Donations</a></li>
+                       <li><a href="http://www.kqed.org/support/microdonation/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Support', '/support/microdonation/']);">Microdonations</a></li>
+               </ul>
+               <ul class="col2">
+                       <li><a href="http://www.kqed.org/support/volunteer/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Support', '/support/volunteer/']);">Volunteer</a></li>
+               </ul>
+       </div>
+</div>
+<div class="sectionWrap">
+       <div class="section last sponsorship cfix">
+               <h1><a href="http://www.kqed.org/support/sponsorship/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Support', '/support/sponsorship/']);">Sponsorship</a></h1>
+               <ul>
+                       <li><a href="http://www.kqed.org/support/sponsorship/radio.jsp" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Support', '/support/sponsorship/radio.jsp']);">Radio</a></li>
+                       <li><a href="http://www.kqed.org/support/sponsorship/tv.jsp" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Support', '/support/sponsorship/tv.jsp']);">TV</a></li>
+                       <li><a href="http://www.kqed.org/support/sponsorship/interactive.jsp" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Support', '/support/sponsorship/interactive.jsp']);">Interactive</a></li>
+                       <li class="link-more"><a href="http://www.kqed.org/support/sponsorship/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav2-Support', '/support/sponsorship/']);">More</a></li>
+               </ul>
+       </div>
+</div>
+
+
+
+
+                               </div>
+
+                       </li>
+
+
+
+                       <li class="nav-aboutus">
+
+                               <a href="http://www.kqed.org/about/" onClick="_gaq.push(['_trackEvent', 'Nav Bar', 'Nav1-About Us', '/aboutus/']);">The Lowdown</a>
+
+                               
+
+
+
+                                                      
+
+
+
+
+                               </div>
+
+                       </li>
+
+
+
+               </ul>
+
+       </div>
+
+<!--/top-->			<div class="kqed-navmenu">
+		<a class="bu-menu" href="#">Menu</a>
+		<div class="dropMenu" aria-hidden="true" style="display: none;">
+			<div class="section mainSec cfix">
+				<ul>
+					<li><a href="http://www.kqed.org/">Home</a></li>
+					<li class="listenLive"><a href="http://www.kqed.org/radio/listen/">Listen Live</a></li>
+					<li><a href="http://www.kqed.org/tv">TV</a></li>
+					<li><a href="http://www.kqed.org/radio">Radio</a></li>
+					<li><a href="http://www.kqed.org/news">News</a></li>
+					<li><a href="http://www.kqed.org/arts">Arts</a></li>
+				</ul>
+				<ul>
+					<li><a href="http://www.kqed.org/food">Food</a></li>
+					<li><a href="http://www.kqed.org/science">Science</a></li>
+					<li><a href="http://www.kqed.org/education">Education</a></li>
+					<li><a href="http://www.kqed.org/support">Support KQED</a></li>
+					<li><a href="http://www.kqed.org/about">About</a></li>
+					<li class="http://www.kqed.org/donate"><a href="http://blogs.kqed.org/donate">Donate</a></li>
+				</ul>
+			</div><!-- /section -->
+			<div class="section search cfix">
+				<form id="search-box" action="http://www.kqed.org/search/index.jsp" name="search-box">
+					<input type="hidden" name="cx" value="016903106374557566950:07-zut18mt4" />
+					<input type="hidden" name="cof" value="FORID:11" />
+					<input type="text" placeholder="Search KQED.org" value title="Search KQED.org" name="q" />
+					<button type="submit" name="sa">Search</button>			
+				</form>
+			</div><!-- /section -->
+			<div class="section footer cfix">
+				<a class="bu-close" href="#">Close</a>
+			</div>
+		</div><!-- /kqed-navmenu-secondary -->
+	</div><!-- /kqed-navmenu -->
+	<script type="text/javascript">
+		/* 
+			"Menu" dropdown for mobile
+		*/
+		jQuery(document).ready(function($) {
+			/* When user clicks "Menu" or "Close" button, toggle dropdown menu. */
+			$('.kqed-navmenu .bu-menu , .kqed-navmenu .bu-close').click(function() {
+				/* Show/hide dropdown menu */
+				$('.kqed-navmenu .dropMenu').slideToggle('fast');
+				/* Toggle Menu button appearance */
+				$('.kqed-navmenu .bu-menu').toggleClass('on');
+				/* Toggle dropdown menu for ARIA-enabled screen readers. 
+				While jQuery's 'hide' does work, this helps make it more fail-safe. */
+				var ariaHidden = $('.kqed-navmenu .dropMenu').attr('aria-hidden');
+				$('.kqed-navmenu .dropMenu').attr('aria-hidden', ariaHidden == 'true' ? 'false' : 'true' );
+				return false;
+			});
+		});			
+	</script>
+        <nav class="kqed-navbar-mobile">
+            <ul class="items-3 cfix">
+                <li><a href="http://mindshift.kqed.org/">MindShift</a></li>
+                <li><a href="http://blogs.kqed.org/education/category/tools/">Digital Tools</a></li>
+                <li><a href="http://blogs.kqed.org/education/category/do-now/">Do Now</a></li>
+            </ul>
+        </nav>
+
+	</div><!-- /kqed-header -->
+
+
+	<div id="wrap">
+
+		<div id="header">
+			<div id="head-content" class="clearfix">
+									<div id="sitetitle">
+						<div class="title"><a href="http://blogs.kqed.org/education">KQED Education | KQED Public Media for Northern CA</a></div> 
+						<div class="description"></div>
+					</div>
+											</div>
+		</div>
+
+
+		
+		
+
+		<div id="page" class="clearfix">
+
+			<div class="page-border clearfix">
+
+
+				<div id="contentleft" class="clearfix">
+
+
+					<div id="content" class="clearfix">
+
+						
+						
+
+						<div class="post" id="post-main-17204">
+
+							<div class="entry">
+
+																<h1 class="post-title single">About Us</h1>
+								<div class="pf-content"><div id="attachment_17207" style="width: 650px" class="wp-caption aligncenter"><img src="http://upload.wikimedia.org/wikipedia/commons/a/a2/Barack_Obama_with_the_14th_Dalai_Lama_in_the_Map_Room.jpg" alt="Photo by Intel Free Press " width="640" height="360" class="size-medium wp-image-17207" /><p class="wp-caption-text"><br /></p></div>
+								  <h3><strong>To respond </strong></h3>
+<p>For more info on how to use Twitter, click <a href="http://blogs.kqed.org/education/how-to-use-twitter-in-your-teaching-practice/" >here</a>.</p>
+<hr />
+<h2><strong>Do Now</strong></h2>
+<p>1. Do you think China has the right to mold Tibet and change Tibet's cultural identity? </p>
+<p>2. What actions should the international community take to aid this conflict? </p>
+<p>3. If you were in charge of negotiations between Tibet and China, what course of action would you propose?</p>
+<p>&nbsp; </p>
+								</div>
+							</div></div></div> <!-- End #content div -->
+
+					
+				</div> <!-- End #contentleft div -->
+
+
+		<div id="contentright">
+
+		  <div id="sidebar" class="clearfix"></div>
+		</div></div></div></div>
+			
+
+			
+		</div>
+
+
+			</div> <!-- End .page-border div -->
+
+		</div> <!-- End #page div -->
+
+		
+	</div> <!-- End #wrap div -->
+
+	
+
+
+		
+               </ul>
+       </div>
+</div>
+
+
+
+
+                               </div>
+
+                       </li>
+
+
+
+               </ul>
+
+       </div>
+
+
+<![endif]--></div><!-- /kqed-footer -->
+	
+</html>
